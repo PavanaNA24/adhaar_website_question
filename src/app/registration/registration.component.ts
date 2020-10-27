@@ -14,9 +14,7 @@ export class RegistrationComponent implements OnInit {
   }
   
   // ToDO 7: Reset the form on submission
-  onSubmit(f:any)
-    {
-      console.log(f);
-    }
-  
+  onSubmit(form: NgForm) {
+			form.reset();
+	}
 }
