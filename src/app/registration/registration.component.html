@@ -1,0 +1,13 @@
+<!-- TODO 2: Make this form call the 'onSubmit' function using the ngSubmit directive. -->
+<form #f="ngForm" (ngSubmit)="onSubmit(f)"></form>
+	<!-- TODO 3: Create an input of type text with id as 'name' and name as 'name' -->
+	<input type="text" name="name" id="name" >
+	<br>
+	<!-- TODO 4: Create an input of type date with id as 'dateOfBirth' and name as 'dateOfBirth' -->
+	<input type="date" name="date" id="date" >
+	<br>
+	<!-- TODO 5: Create an input of type password with id as 'password' and name as 'password' -->
+    <input type="password" name="password" id="password">
+    <br>
+    <!-- TODO 6: Create the submit button which routes to homepage on submit. -->
+	<button type="submit" id="submit">Submit</button>
